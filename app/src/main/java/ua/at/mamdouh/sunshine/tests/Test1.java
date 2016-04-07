@@ -17,6 +17,7 @@ public class Test1 {
 
         System.out.println(weatherUri);
 
+        //-change here--------------------
 
         try {
             JSONObject weather = new JSONObject(weatherUri);
