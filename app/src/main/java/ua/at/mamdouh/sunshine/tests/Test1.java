@@ -16,8 +16,7 @@ public class Test1 {
         String weatherUri = json_uri.jsonOutput();
 
         System.out.println(weatherUri);
-
-        //-change here--------------------
+        
 
         try {
             JSONObject weather = new JSONObject(weatherUri);
